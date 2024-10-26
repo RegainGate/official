@@ -19,6 +19,19 @@ h1 {
     color: #333;
 }
 
+.description {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.description p {
+    margin: 8px 0;
+    color: #555;
+}
+
 .form-group {
     margin-bottom: 15px;
 }
