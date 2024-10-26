@@ -14,7 +14,7 @@
             <p><strong>卸価格:</strong><br>これは商品の購入金額を指します。</p>
             <p><strong>手数料:</strong><br>各フリマサイトでの販売時にかかる手数料です。サイトごとに異なるため、出品前に確認してください。</p>
             <p><strong>送料:</strong><br>ドキュメントの「売れた後の流れ」に詳細が記載されています。例として、らくらくメルカリ便の宅急便を利用した場合、バッグの大きさによって送料は750円～1450円の間で変動します。</p>
-            <p><strong>必要な販売価格:</strong><br>記載された販売価格で出品することにより、卸価格に対して30%の利益が出るように設定されています。</p>
+            <p><strong>必要な販売価格:</strong><br>記載された販売価格で出品することにより、卸価格に対して利益が出るように設定されています。</p>
         </div>
 
         <form id="calcForm">
@@ -31,6 +31,11 @@
             <div class="form-group">
                 <label for="shippingFee">送料 (円):</label>
                 <input type="number" id="shippingFee" placeholder="送料を入力" required>
+            </div>
+
+            <div class="form-group">
+                <label for="profit">利益 (%):</label>
+                <input type="number" id="profit" value="30" placeholder="利益を入力" required>
             </div>
 
             <button type="button" id="calculateButton">計算する</button>
